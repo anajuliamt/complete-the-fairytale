@@ -9,6 +9,10 @@ div.flores-container {
   margin-bottom: 5vh;
 }
 
+.texto {
+  width: 100%;
+}
+
 div.flores-container img {
   object-fit: contain;
 }
@@ -32,8 +36,9 @@ div.objetos-container {
   justify-content: center;
   align-items: center;
 
-  width: 100%;
+  width: 90%;
   margin: auto;
+  margin-top: 40px;
 }
 
 button#objeto {
@@ -47,7 +52,7 @@ button#objeto {
 }
 
 button#objeto img {
-  width: 20vh;
+  width: 19vh;
 }
 
 button#objeto p {
@@ -57,11 +62,6 @@ button#objeto p {
 
 button#objeto:hover {
   transform: scale(1.05);
-}
-
-footer img {
-  width: 100%;
-  height: 100%;
 }
 
 @media screen and (max-width: 768px) {
